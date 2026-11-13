@@ -52,7 +52,7 @@ definal_par_secteur = (
     .mean()
     .round(2)
 )
-
+st.header("Délai moyen de facturation acompte et définitive de la marchandise.")
 st.subheader("⏱️ Délai moyen facturation acompte par secteur d'activités portuaires.")
 #Création dynamique des colonnes selon le nombre de secteurs trouvés
 cols = st.columns(len(delai_par_secteur))
